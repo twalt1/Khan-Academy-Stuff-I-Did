@@ -1,0 +1,36 @@
+// simple snowman
+//Red Outline
+background(0, 0, 0);
+stroke(255, 255, 255);
+
+//Body
+fill(0, 0, 0);
+ellipse(200, 300, 150, 150);
+ellipse(200, 200, 100, 100);
+ellipse(200, 120, 75, 75);
+
+//Hat
+fill(89, 41, 25);
+rect(185, 4, 26, 74);
+rect(144,69,108,22);
+
+//Eyes
+fill(75, 184, 196);
+ellipse(185, 113, 15, 16);
+ellipse(215, 113, 15, 16);
+
+//Nose
+fill(255, 106, 0);
+triangle(188,133,138,127,203,124);
+
+//Mouth
+fill(0, 0, 0);
+ellipse(215, 144, 15, 16);
+ellipse(198, 149, 15, 16);
+ellipse(182, 144, 15, 16);
+
+//Arms
+strokeWeight(3);
+stroke(161, 73, 29);
+line(89,201,162,168);
+line(311,242,238,168);
