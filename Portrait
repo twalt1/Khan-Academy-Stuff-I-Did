@@ -1,0 +1,43 @@
+background(0, 251, 255);
+
+//Sun
+fill(213, 255, 0);
+ellipse(46, 31, 46, 46);
+
+//Hair
+fill(0, 0, 0);
+ellipse(198, 118, 230, 217);
+
+//Shirt
+fill(55, 0, 255);
+triangle(199,322,298,400,95,400);
+
+//Face
+fill(145, 116, 116);
+ellipse(200, 200, 197, 285);
+
+//Eyes (White)
+fill(255, 255, 255);
+ellipse(164, 171, 40, 31);
+ellipse(241, 171, 40, 31);
+
+//Eyes (Iris)
+fill(77, 26, 36);
+ellipse(164, 171, 18, 18);
+ellipse(241, 171, 18, 18);
+
+//Nose
+fill(94, 56, 56);
+triangle(203,225,237,225,202,170);
+
+//Mouth
+fill(0, 0, 0);
+ellipse(198, 274, 89, 71);
+fill(145, 116, 116);
+stroke(145, 116, 116);
+ellipse(199, 255, 112, 48);
+
+//Eyebrows
+stroke(0, 0, 0);
+line(145,142,189,145);
+line(262,135,210,142);
