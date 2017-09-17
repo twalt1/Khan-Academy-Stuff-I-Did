@@ -1,0 +1,31 @@
+
+var xPositions = [200, 71, 260, 186, 80, 43, 334, 280, 122, 159, 12, 235, 341, 34, 270, 174, 382, 434, 124, 32, 564, 45, 310];
+var yPositions = [187,42,107,0,0,164, 3, 2, 6, 23, 324, 12, 34, 23, 43, 234, 12, 43, 53, 323, 232, 23, 232, 343];
+
+for (var x = 200; x <= 350; x+=30)
+{
+    fill(random(1,400), random(1,400), 170);
+}
+
+draw = function()
+{
+    background(204, 247, 255);
+
+    for (var i = 0; i < xPositions.length; i++) 
+    {   
+        noStroke();
+        rect(xPositions[i], yPositions[i], 27, 27);
+        yPositions[i] += 5;
+        
+        if (yPositions[i]>400)
+        {
+            yPositions[i] = 0;
+        }
+    }
+    
+    if(mouseIsPressed) // If the mouse is pressed
+    {
+        xPositions.push(mouseX);
+        yPositions.push(mouseY);
+    }
+};
