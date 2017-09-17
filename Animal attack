@@ -1,0 +1,39 @@
+var bodyX = 200;
+var bodyY = 220;
+var bodyW = 118;
+var bodyH = bodyW/2;
+var iris = 9;
+var scaryEyes = 1;
+var scaryFeathers = 200;
+var x = 0;
+var y = 0;
+
+draw = function() 
+{
+    background(207, 254, 255);
+    scaryFeathers-=1;
+    fill(scaryFeathers, scaryFeathers, 36);
+    ellipse(bodyX, bodyY, bodyW, 106); // Body
+    ellipse(bodyX, bodyY-70, bodyH, 47); // Face
+    fill(255, 106, 0);
+    triangle(x+228,y+142,x+225,y+160,x+301,y+161); // Beak
+    fill(255, 255, 255);
+    ellipse(x+202,y+145,22,22);
+    scaryEyes +=1; // Increases the eye's size
+    fill(scaryEyes, 0, 0);
+    ellipse(x+203, y+144 ,iris,iris);
+    iris+=0.05;
+
+    
+    //Left Leg and Toes
+    line(x+179,y+270,x+176,y+330);
+    line(x+191,y+340,x+175,y+330);
+    line(x+169,y+340,x+175,y+330);
+    line(x+179,y+340,x+175,y+330);
+    
+    //Right Leg and Toes
+    line(231,265,235,330);
+    line(255,340,235,330);
+    line(244,340,235,330);
+    line(237,341,235,330);
+};
