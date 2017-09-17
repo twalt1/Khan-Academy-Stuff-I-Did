@@ -1,0 +1,40 @@
+fill(0, 255, 55);
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+var answer = floor(random(1, 6));
+if (answer === 1 ) 
+{
+    fill(255, 255, 255);
+    text("NOT YET", 176, 200);
+    text("IMPLEMENTED", 159, 229); 
+}
+
+else if (answer === 2 )
+{
+  fill(0, 0, 0);
+  text("Hello", 188, 200);
+  text("My Friend", 174, 229);   
+}
+
+else if (answer === 3 )
+{
+  fill(20, 255, 247);
+  text("Bonjour", 178, 200);
+  text("Mon Ami", 174, 229);   
+}
+
+else if (answer === 4 )
+{
+  fill(255, 247, 20);
+  text("Spicy", 184, 200);
+  text("Spices", 181, 229);   
+}
+
+else if (answer === 5 )
+{
+  fill (255, 0, 0);
+  text("Try", 192, 200);
+  text("Again", 184, 229);   
+}
