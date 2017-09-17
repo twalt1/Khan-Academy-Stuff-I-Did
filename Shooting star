@@ -1,0 +1,24 @@
+var xPos1 = 42;
+var yPos1 = 39;
+var xPos2 = 306;
+var yPos2 = 316;
+
+draw = function() 
+{
+    xPos1 += 1.5; //1st Star's X Movements
+    yPos1 += 2; //1st Star's Y Movements
+    xPos2 += 0.9; //2nd Star's X Movements
+    yPos2 -= 1.9; //2nd Star's Y Movements
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos1, yPos1, 10, 10);
+    fill(242, 238, 203);
+    rect(xPos2, yPos2, 10, 10);
+    
+    //Background Stars
+    ellipse(141,287,54,54);
+    ellipse(314,114,26,26);
+    ellipse(150,114,15,15);
+    ellipse(279,218,15,15);
+    ellipse(49,366,15,15);
+};
