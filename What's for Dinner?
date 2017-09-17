@@ -1,0 +1,44 @@
+background(186, 145, 20); // wooden table
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300); 
+
+//Edible Carrot
+fill(255, 145, 0);
+triangle(103,173,59,196,217,343);
+
+//Carrot Leaf
+fill(9, 255, 0);
+ellipse(90,196,75,75);
+arc(76,192,39,35, 17, 120);
+arc(117,177,22,28, 102, 217);
+arc(100,207,6,28, 102, 137);
+
+//Beef Jerky
+fill(84, 26, 26);
+rect(206,184,39,127);
+strokeWeight(3);
+line(214,309,214,186);
+line(226,311,225,185);
+line(237,309,236,187);
+
+//Cookie
+strokeWeight(1);
+fill(140, 106, 71);
+ellipse(181,131,100,100);
+fill(36, 29, 29);
+ellipse(156,113,12,19);
+ellipse(198,151,11,6);
+ellipse(178,129,6,6);
+ellipse(211,136,10,6);
+ellipse(197,109,10,6);
+ellipse(156,156,10,6);
+
+//Pizza
+fill(255, 179, 0);
+triangle(291,187,257,187,277,307);
+fill(255, 0, 0);
+ellipse(273,203, 11,11);
+ellipse(276,242,11,14);
+translate(201,93);
+fill(135, 65, 75);
+quad(91,94,55,97,54,77,88,74);
