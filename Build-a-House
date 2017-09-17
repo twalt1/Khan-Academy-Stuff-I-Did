@@ -1,0 +1,31 @@
+background(219, 255, 255);
+
+fill(174, 180, 214);
+triangle(200, 28, 350, 150, 50, 150); // Roof
+
+fill(255, 255, 255);
+rect(60, 150, 280, 207);
+for (var y = 302; y > 128; y-=38) // Created Tiling 
+{
+    for (var z = 61; z < 276; z += 70)
+    {
+        fill(0, 255, 94);
+        rect (z,y,71,58); 
+    }
+    
+    
+}
+fill(120, 80, 19);
+rect(180, 283, 40, 77); // Door
+
+for (var x = 69; x < 325; x += 70) // Windows
+{
+    fill(68, 216, 219);
+    rect(x,179,57,65);
+}
+
+for (var p = 0; p < 400; p+= 78)
+{
+   var grass = getImage("cute/GrassBlock"); // Grass Block
+   image(grass, p, 339, 81, 76);
+}
