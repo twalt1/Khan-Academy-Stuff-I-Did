@@ -1,0 +1,42 @@
+var book = [
+    { title: "The Giver", author: "Lois Lowry", rgb: color(207, 151, 20), stars: 3}, 
+    { title: "Harry Potter", author: "J. K. Rowling", rgb: color(4, 190, 227), stars: 5},
+    { title: "All Grown Up", author: "Jami Attenberg", rgb: color(255, 18, 18), stars: 3},
+    { title: "Thirteen Reasons Why", author: "Jay Asher", rgb: color(36, 222, 92), stars: 4},
+    { title: "Exit West", author: "Mohsin Hamid", rgb: (207, 151, 20), stars: 3},
+    { title: "Anything Is Possible", author: "Elizabeth Strout", rgb: color(4, 190, 227),
+    stars: 3},
+    { title: "Homesick for Another World", author: "Ottessa Moshfegh", rgb: color(255, 18, 18), stars: 3},
+    { title: "Sour Heart", author: "Jenny Zhang", rgb: color(36, 222, 92), stars: 4},
+];
+
+
+// draw shelf
+fill(173, 117, 33);
+rect(0, 120, width, 10);
+
+for (var x=0; x < book.length; x++){
+    rect(0, 293, width, 10);
+    //fill(214, 255, 219);
+    var colourcode = book[x].rgb;
+    fill(colourcode);
+    rect(10 + x * 100, 20, 90, 100);
+    rect(10 + x * 100, 194, 90, 100);
+    fill(0, 0, 0);
+    text(book[x].title, 15 + x * 100, 24, 70, 100);
+    text(book[x].author, 15 + x * 100, 81, 70, 100);
+    for (var a = 4; a < book.length; a++)
+    {
+        text(book[a].title, -361 + a * 96, 203, 70, 100);
+        text(book[a].author, -367 + a * 97, 247, 70, 100);
+        
+        for (var b = 0; b < book[a].stars; b++)
+        {
+             image(getImage("cute/Star"), -345 + b * 24 + a * 94, 277, 10, 17);
+        }
+    }
+    for (var i = 0; i < book[x].stars; i++)
+    {
+        image(getImage("cute/Star"), 10 + i * 20 + x * 100, 103, 10, 17);
+    }
+}
