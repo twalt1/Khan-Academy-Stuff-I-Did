@@ -1,0 +1,16 @@
+CREATE TABLE Electronics (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, cost REAL, aisle INTEGER);
+CREATE TABLE Bread (id INTEGER PRIMARY KEY, name TEXT, cost REAL, aisle INTEGER);
+
+INSERT INTO Electronics VALUES (1, "Good Phone", "Samsung", 400, 1);
+INSERT INTO Electronics VALUES (2, "Another Good Phone", "Google", 400, 1);
+INSERT INTO Electronics VALUES (3, "Oh No Phone", "Apple", 800, 1);
+INSERT INTO Electronics VALUES (4, "Headphones", "Sony", 129.99, 1);
+
+INSERT INTO Bread VALUES (1, "Wonderbread",  2.99, 2);
+INSERT INTO Bread VALUES (2, "Fancy Bread",  6.99, 2);
+INSERT INTO Bread VALUES (3, "Moldy Bread",  1.29, 2);
+INSERT INTO Bread VALUES (4, "??? Bread",  2999999.99, 2);
+
+SELECT Brand FROM ELECTRONICS;
+SELECT cost FROM Bread ORDER BY cost;
+SELECT SUM(cost) FROM Bread
