@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body{
+            background-color: rgb(238, 250, 177);
+        }
+        #BM{
+            color: rgb(0, 213, 255);
+        }
+        
+        .redcolour{
+            color:rgb(237, 38, 38);
+        }
+        
+        .tab {
+            text-indent:15px; 
+            
+        }
+        
+        #Details{
+            font-size:18px;
+        }
+        
+        p{
+            font-style: italic;
+        }
+        
+        q{
+            font-weight: bold;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <h1 class = "redcolour">You're invited!</h1>
+        <h2>To My <em id= "BM">Bar Mitzvah!</em></h2>
+        
+        <p id = "Details">The details:</p>
+        <ul>
+            <li>To be hosted on the 30th of September, 2017!</li>
+            <li>Bring an umbrella</li>
+            <li>Don't forget your copy of the communist manifesto</li>
+            <q>The history of all previous societies has been the history of class struggles.</q>
+            <p class="tab">-Karl Marx</p>
+            <li>Arrive before 5pm.</li>
+        </ul>
+         <img src ="https://upload.wikimedia.org/wikipedia/commons/8/85/Smiley.svg" width="93">
+       <h3>People Invited:</h3>  
+         <ul>
+             <li>Me (Of course)</li>
+             <li>You</li>
+             <li>My dog</li>
+              <p class="tab"><img src ="https://upload.wikimedia.org/wikipedia/commons/8/8b/Rottweiler_Face.jpg" width="96"></p>
+         </ul>
+        
+    </body>
+</html>
