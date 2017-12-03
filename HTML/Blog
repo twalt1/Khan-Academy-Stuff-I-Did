@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        body{
+            background-color: rgb(94, 94, 94);
+        }
+        .Date{
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+            font-style: italic;
+        }
+        
+        h1{
+            color: rgb(252, 227, 5);
+            font-size: 60px;
+            text-align: center;
+            font-family: "Impact";
+            background-color: rgb(222, 27, 27);
+            }
+            
+        p{
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size:13px;
+            font-family:"arial";
+            }
+            
+        #contents{
+            color: rgb(255, 255, 255);
+        }    
+        </style>
+    </head>
+    <body>
+        
+        <h1>Timothy's blog</h1>
+
+        <h3 id="contents">Contents</h3>
+        <ul>
+            <li><a href ="#1st">First post</a></li>
+            <li><a href ="#2nd">Second post</a></li>
+        </ul>
+        <h2 id="1st">Post # 1</h2>
+        <h6 class="Date">Posted: 23/07/17 </h6>
+        
+        <p>I did some homework.</p>
+        
+        <h2 id= "2nd">Post # 2</h2>
+        <h6 class="Date">Posted: 24/07/17 </h6>
+        
+        <p>I did some more homework.</p>
+    </body>
+</html>
