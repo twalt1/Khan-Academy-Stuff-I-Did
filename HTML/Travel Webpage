@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Project: Go To China pls</title>
+        <style>
+            
+            body { 
+                
+                background-color : rgb(237, 17, 17);
+                 }
+            .Guide{
+                background-color : rgb(18, 224, 235);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Travel to <strong>China</strong></h1>
+        <img src ="https://www.kasandbox.org/programming-images/space/star.png" width="200">
+    </body>
+    <p class = "Guide"><strong>China</strong> is the most populated country in the world. It has <em>pandas</em> and stuff.</p>
+    
+    <img src ="https://www.kasandbox.org/programming-images/landscapes/beach.png" width="200">\
+<img src ="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" width="200">
+    <p><strong>China</strong> is known for its world-famous beaches.</p>
+<p>Don't forget your:</p>
+    <ul>
+        <li>Toothbrush</li>
+        <li>Communist Literature</li>
+        <li>Pepper Spray</li>
+        <li>Fully-Functioning Ventilation System</li>
+    </ul>
+<p>China is great and stuff. Visit now pls. Or Else.</p>
+<img src ="https://www.kasandbox.org/programming-images/landscapes/fields-of-grain.png" width="200">
+<p>
+A field of wheat so beautiful, that Theresa May won't feel guilty</p>
+</html>
+
+<h3>Cool Things to do in <strong>China</strong>:</h3>
+
+    <ul>
+        <li>See the Great Wall of China</li>
+        <li>Practice Tai Chi</li>
+        <li>Play with Giant Pandas</li>
+        <li>Drink Oil Tea</li>
+    </ul>
