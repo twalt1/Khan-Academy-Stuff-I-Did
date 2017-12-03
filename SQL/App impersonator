@@ -1,0 +1,20 @@
+/* What does the app's SQL look like? */
+
+CREATE TABLE Electronics (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, cost REAL, aisle INTEGER);
+CREATE TABLE Bread (id INTEGER PRIMARY KEY, name TEXT, cost REAL, aisle INTEGER);
+
+INSERT INTO Electronics VALUES (1, "Good Phone", "Samsung", 400, 1);
+INSERT INTO Electronics VALUES (2, "Another Good Phone", "Google", 400, 1);
+INSERT INTO Electronics VALUES (3, "Oh No Phone", "Apple", 800, 1);
+INSERT INTO Electronics VALUES (4, "Headphones", "Sony", 129.99, 1);
+
+
+INSERT INTO Bread VALUES (1, "Wonderbread",  0, 2);
+INSERT INTO Bread VALUES (2, "Fancy Bread",  6.99, 2);
+INSERT INTO Bread VALUES (3, "Moldy Bread",  1.29, 2);
+INSERT INTO Bread VALUES (4, "??? Bread",  2999999.99, 2);
+
+UPDATE Bread SET cost = 2.99 WHERE name = "Wonderbread";
+
+DELETE FROM Bread WHERE id = 2;
+SELECT * FROM Bread;
